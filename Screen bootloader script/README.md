@@ -14,3 +14,12 @@ This is done through this script.
 5. Run the ``.bat`` script
 6. After a few seconds, all the displays should display a black background and a gren flashing text saying "Drive not mounted"
 7. DONE 
+
+## Another, maybe easiest, way for one screen
+1. Connect the display you have via usb using any 5V FTDI converter board.
+2. Install the 4D Workshop 4 IDE from https://www.4dsystems.com.au/product/4D_Workshop_4_IDE
+3. Launch the application named `Program Loader` in the Windows start menu.
+4. Then select the FTDI COM port in the IHM.
+5. Load the `temp4D.4XE` of this repository. Make sure the `temp4D.cfg` file is in the same directory
+6. Click on `OK`
+7. DONE
